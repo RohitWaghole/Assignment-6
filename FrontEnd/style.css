@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+      63deg,
+      rgb(242, 168, 168) 2.9%,
+      rgb(94, 46, 165) 102.1%
+    )
+    no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  width: 100vh;
+  height: 40vh;
+  border-radius: 20px;
+  margin: 14% auto;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  padding: 11px;
+  /* background-color: rgb(254, 106, 106); */
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+}
+
+.btn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/* 
+h1 {
+  border: 2px solid red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 200px;
+} */

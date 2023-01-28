@@ -1,0 +1,30 @@
+.container {
+  height: 45vh;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  font-size: 0.9rem;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  padding: 9px;
+}
+
+.showPassword {
+  width: 22px;
+}
+
+.Password-showing {
+  width: 406px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+span {
+  padding: 10px;
+}
